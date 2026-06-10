@@ -89,8 +89,11 @@ See [agents/README.md](agents/README.md) for the decision matrix and [references
 skills/
   {skill-name}/           # kebab-case directory name
     SKILL.md              # Required: skill definition
-    scripts/              # Required: executable scripts
+    scripts/              # Optional: executable scripts
       {script-name}.sh    # Bash scripts (preferred)
+    references/           # Optional: skill-specific references
+    examples/             # Optional: reference implementations and usage patterns
+    resources/            # Optional: checklists, templates, or assets
   {skill-name}.zip        # Required: packaged for distribution
 ```
 
